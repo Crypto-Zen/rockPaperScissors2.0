@@ -1,0 +1,47 @@
+body{
+  margin: 0 0 0 0;
+  padding: auto;
+  text-align: center;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  padding: 0 10 0 10;
+}
+
+h3{
+  padding: 0 5 0 5;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul{
+  object-fit: fill;
+}
+
+.play-round{
+  margin: 10px;
+  padding:10px;
+}
+
+.fighter-buttons ul{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.computer-choice ul{
+  display:flex;
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
