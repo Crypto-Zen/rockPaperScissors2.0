@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="rockPaperScissors.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <!-- Title -->
+    <div class="title-heading">
+        <h1>Rock Paper Scissors</h1>
+        <h3>Choose Your Fighter</h3>
+
+    </div>
+    <!-- Image Buttons -->
+    <div class="fighter-buttons">
+      <li>
+        <ul>
+          <input type="image" class="rock" src="rockaxe.jpeg" alt="rock-picture"
+            width="200px"
+            height="200px"
+            onClick="userPlay = &quot;rock&quot;;">
+         </ul>
+        <ul>
+          <input type="image" class="paper" src="papersword.jpeg" alt="paper-picture"
+            width="200px"
+            height="200px"
+            onClick="userPlay = &quot;paper&quot;;">
+        </ul>
+
+        <ul>
+          <input type="image" class="scissors" src="shears.jpeg" alt="scissor-picture"
+            width="200px"
+            height="200px"
+            onclick="userPlay = &quot;scissors&quot;;">
+        </ul>
+      </li>
+    </div>
+
+    <!-- Play Round Button -->
+    <div class="play-round">
+        <button type="button" class="playRound" name="button" onClick="playRound(userPlay, computerSelection)">Play Round</button>
+    </div>
+
+    <!-- Winners Section -->
+    <div class="winner-section">
+        <h2>The Winner is:</h2>
+        <p id="winner-output"></p>
+    </div>
+
+    <script src="rockPaperScissors.js"></script>
+  </body>
+</html>
